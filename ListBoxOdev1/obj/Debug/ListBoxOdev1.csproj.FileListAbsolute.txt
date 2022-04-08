@@ -1,0 +1,10 @@
+C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\bin\Debug\ListBoxOdev1.exe.config
+C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\bin\Debug\ListBoxOdev1.exe
+C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\bin\Debug\ListBoxOdev1.pdb
+C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.csproj.AssemblyReference.cache
+C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.Form1.resources
+C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.Properties.Resources.resources
+C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.csproj.GenerateResource.cache
+C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.csproj.CoreCompileInputs.cache
+C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.exe
+C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.pdb

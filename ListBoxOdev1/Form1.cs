@@ -113,6 +113,7 @@ namespace ListBoxOdev1
                     }
 
                 }
+                MessageBox.Show("Maaşı 5000 ile 7000 arası olan kişi sayısı= " +listBox1.SelectedItems.Count.ToString());
             }
             else { MessageBox.Show("Kayıt Bulunamadı."); }
 
@@ -150,6 +151,7 @@ namespace ListBoxOdev1
         {
             listBox1.ClearSelected();
             listBox1.SelectionMode = SelectionMode.MultiSimple;
+            if (textBox1.Text != "") { 
             if (listBox1.Items.Count > 0)
             {
                 for (int i = 0; i < listBox1.Items.Count; i++)
@@ -161,6 +163,8 @@ namespace ListBoxOdev1
                 }
             }
             else { MessageBox.Show("ListBoxda Değer Yok."); }
+            }
+            else { MessageBox.Show("Arama kutusunu doldurun."); }
         }
     }
 }

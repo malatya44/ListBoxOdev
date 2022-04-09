@@ -44,12 +44,16 @@ namespace ListBoxOdev1
 
         private void button8_Click(object sender, EventArgs e)
         {
-            int toplam = 0;
-            for (int i = 0; i < miktar.Length; i++)
+            if (listBox1.Items.Count > 0)
             {
-                toplam += miktar[i];
+                int toplam = 0;
+                for (int i = 0; i < miktar.Length; i++)
+                {
+                    toplam += miktar[i];
+                }
+                MessageBox.Show("Toplam Miktar:" + toplam.ToString());
             }
-            MessageBox.Show("Toplam Miktar:" + toplam.ToString());
+            else { MessageBox.Show("Kayıt Bulunamadı."); }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -65,10 +69,14 @@ namespace ListBoxOdev1
 
         private void button5_Click(object sender, EventArgs e)
         {
-            listBox1.ClearSelected();
-            //indexof dizideki indexi belirler
-            int index = Array.IndexOf(miktar, miktar.Max());
-            listBox1.SelectedIndex = index;
+            if (listBox1.Items.Count > 0)
+            {
+                listBox1.ClearSelected();
+                //indexof dizideki indexi belirler
+                int index = Array.IndexOf(miktar, miktar.Max());
+                listBox1.SelectedIndex = index;
+            }
+            else { MessageBox.Show("Kayıt Bulunamadı."); }
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -76,48 +84,83 @@ namespace ListBoxOdev1
             listBox1.ClearSelected();
             //listbox çoklu seçim
             listBox1.SelectionMode = SelectionMode.MultiSimple;
-            for (int i = 0; i < miktar.Length; i++)
+            if (listBox1.Items.Count > 0)
             {
-                if (miktar[i] <= 4000)
+                for (int i = 0; i < miktar.Length; i++)
                 {
-                    listBox1.SelectedIndex = i;
+                    if (miktar[i] <= 4000)
+                    {
+                        listBox1.SelectedIndex = i;
+                    }
                 }
             }
+            else { MessageBox.Show("Kayıt Bulunamadı."); }
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             listBox1.ClearSelected();
             listBox1.SelectionMode = SelectionMode.MultiSimple;
-            for (int i = 0; i < miktar.Length; i++)
+            if (listBox1.Items.Count > 0)
             {
-
-                if ((miktar[i] < 7000) && (miktar[i] > 5000))
+                for (int i = 0; i < miktar.Length; i++)
                 {
-                    //farklı bir seçim yöntemi selectindex ile aynı
-                    listBox1.SetSelected(i, true);
+
+                    if ((miktar[i] < 7000) && (miktar[i] > 5000))
+                    {
+                        //farklı bir seçim yöntemi selectindex ile aynı
+                        listBox1.SetSelected(i, true);
+                    }
+
                 }
             }
-        }
+            else { MessageBox.Show("Kayıt Bulunamadı."); }
 
+        }
         private void button9_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
-            miktar[3] += 300;
-            //buton1 e tıkla
-            button1_Click(sender, e);
-            listBox1.ClearSelected();
-            listBox1.SelectedIndex = 3;
+
+            if (listBox1.Items.Count > 0)
+            {
+                listBox1.Items.Clear();
+                miktar[3] += 300;
+                //buton1 e tıkla
+                button1_Click(sender, e);
+                listBox1.ClearSelected();
+                listBox1.SelectedIndex = 3;
+            }
+            else { MessageBox.Show("Kayıt Bulunamadı."); }
 
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
             listBox1.ClearSelected();
-            //indexof dizideki hangi indexte olduğumuzu belirler
-            int index = Array.IndexOf(miktar, miktar.Last());
-            listBox1.SelectedIndex = index;
-            MessageBox.Show(dizi.Last());
+            if (listBox1.Items.Count > 0)
+            {
+                //indexof dizideki hangi indexte olduğumuzu belirler
+                int index = Array.IndexOf(miktar, miktar.Last());
+                listBox1.SelectedIndex = index;
+                MessageBox.Show(dizi.Last());
+            }
+            else { MessageBox.Show("Kayıt Bulunamadı."); }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            listBox1.ClearSelected();
+            listBox1.SelectionMode = SelectionMode.MultiSimple;
+            if (listBox1.Items.Count > 0)
+            {
+                for (int i = 0; i < listBox1.Items.Count; i++)
+                {
+                    if (listBox1.Items[i].ToString().ToLower().Contains(textBox1.Text.ToLower()))
+                    {
+                        listBox1.SetSelected(i, true);
+                    }
+                }
+            }
+            else { MessageBox.Show("ListBoxda Değer Yok."); }
         }
     }
 }

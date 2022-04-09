@@ -8,3 +8,13 @@ C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.cs
 C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.csproj.CoreCompileInputs.cache
 C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.exe
 C:\Users\Kartal\source\repos\ListBoxOdev1\ListBoxOdev1\obj\Debug\ListBoxOdev1.pdb
+D:\GitProjeler\ListBoxOdev\ListBoxOdev1\bin\Debug\ListBoxOdev1.exe.config
+D:\GitProjeler\ListBoxOdev\ListBoxOdev1\bin\Debug\ListBoxOdev1.exe
+D:\GitProjeler\ListBoxOdev\ListBoxOdev1\bin\Debug\ListBoxOdev1.pdb
+D:\GitProjeler\ListBoxOdev\ListBoxOdev1\obj\Debug\ListBoxOdev1.csproj.AssemblyReference.cache
+D:\GitProjeler\ListBoxOdev\ListBoxOdev1\obj\Debug\ListBoxOdev1.Form1.resources
+D:\GitProjeler\ListBoxOdev\ListBoxOdev1\obj\Debug\ListBoxOdev1.Properties.Resources.resources
+D:\GitProjeler\ListBoxOdev\ListBoxOdev1\obj\Debug\ListBoxOdev1.csproj.GenerateResource.cache
+D:\GitProjeler\ListBoxOdev\ListBoxOdev1\obj\Debug\ListBoxOdev1.csproj.CoreCompileInputs.cache
+D:\GitProjeler\ListBoxOdev\ListBoxOdev1\obj\Debug\ListBoxOdev1.exe
+D:\GitProjeler\ListBoxOdev\ListBoxOdev1\obj\Debug\ListBoxOdev1.pdb
